@@ -15,8 +15,8 @@ const app = express()
 
 
 // mount routes
-app.get('/', function(req,res){
-  res.send('<h1>hello Express</h1>')
+app.get('/home', function(req, res){
+  res.render('home')
 })
 
 
